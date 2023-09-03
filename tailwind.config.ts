@@ -12,6 +12,7 @@ const config: Config = {
       colors: {
         primary: 'rgb(var(--color-primary) / <alpha-value>)',
         secondary: 'rgb(var(--color-secondary) / <alpha-value>)',
+        secondaryHover: 'rgb(var(--color-secondary-hover) / <alpha-value>)',
         target: 'rgb(var(--color-target) / <alpha-value>)'
       }
     }

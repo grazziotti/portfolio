@@ -5,22 +5,27 @@
 @layer base {
   :root {
     --color-primary: 255 255 255;
-    --color-secondary: 240 240 240;
+    --color-secondary: 245 245 245;
+    --color-secondary-hover: 229 229 229;
     --color-target: 0 123 255;
     --color-text: 17 21 23;
   }
+  
   
   @media (prefers-color-scheme: dark) {
     :root {
       --color-primary: 11 11 11;
       --color-secondary: 15 15 15;
+      --color-secondary-hover: 30 30 30;
       --color-text: 235 236 243;
     }
   }
+  
 
   :root[data-theme="dark"] {
     --color-primary: 11 11 11;
     --color-secondary: 15 15 15;
+    --color-secondary-hover: 30 30 30;
     --color-text: 235 236 243;
   }
 }
