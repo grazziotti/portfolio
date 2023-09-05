@@ -20,6 +20,13 @@
       --color-text: 235 236 243;
     }
   }
+
+  :root[data-theme="light"] {
+    --color-primary: 255 255 255;
+    --color-secondary: 245 245 245;
+    --color-secondary-hover: 229 229 229;
+    --color-text: 17 21 23;
+  }
   
 
   :root[data-theme="dark"] {
