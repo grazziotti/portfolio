@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <header>
       <div className="mx-auto max-w-5xl">
-        <div className="flex h-28 justify-between items-center">
+        <div className="flex h-28 items-center justify-between">
           <Logo />
           <NavBar />
           <ThemeSwitcher />

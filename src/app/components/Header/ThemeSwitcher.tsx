@@ -29,7 +29,7 @@ export const ThemeSwitcher = () => {
 
   if (!mounted) {
     return (
-      <div className="w-6 h-6 relative bg-secondaryHover p rounded-full animate-pulse"></div>
+      <div className="p relative h-6 w-6 animate-pulse rounded-full bg-secondaryHover"></div>
     )
   }
 
@@ -49,7 +49,7 @@ export const ThemeSwitcher = () => {
       >
         <Menu.Items
           as="ul"
-          className="bg-secondary absolute rounded-lg overflow-hidden right-0 w-52 py-2 mt-6"
+          className="absolute right-0 mt-6 w-52 overflow-hidden rounded-lg bg-secondary py-2"
         >
           {Themes.map((themeInfo, index) => (
             <Menu.Item key={index} as="li">
@@ -60,7 +60,7 @@ export const ThemeSwitcher = () => {
                   theme === themeInfo.label.toLowerCase()
                     ? 'text-target'
                     : ''
-                } flex items-center w-full px-4 py-2 hover:bg-secondaryHover text-lg transition ease-linear cursor-pointer gap-x-3`}
+                } flex w-full cursor-pointer items-center gap-x-3 px-4 py-2 text-lg transition ease-linear hover:bg-secondaryHover`}
               >
                 {themeInfo.icon}
                 {themeInfo.label}
