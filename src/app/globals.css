@@ -9,6 +9,7 @@
     --color-secondary-hover: 229 229 229;
     --color-target: 0 123 255;
     --color-text: 17 21 23;
+    --color-text-light: 235 236 243;
   }
   
   
@@ -35,6 +36,10 @@
     --color-secondary-hover: 30 30 30;
     --color-text: 235 236 243;
   }
+}
+
+* {
+  border-color: rgb(var(--color-text));
 }
 
 body {
