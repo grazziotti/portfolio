@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-import { ProjectsData } from '../utils/data'
+import { projectsData } from '../utils/data'
 import { SectionContainer } from './SectionContainer'
 
 import { Code2, ExternalLink, MoveDown } from 'lucide-react'
@@ -25,7 +25,7 @@ export const Projects = () => {
   return (
     <SectionContainer title="Projetos">
       <div className="grid grid-cols-2 gap-32">
-        {ProjectsData.slice(0, visibleProjects).map((project, index) => (
+        {projectsData.slice(0, visibleProjects).map((project, index) => (
           <div key={index} className="relative flex flex-col gap-3">
             <div className="relative flex-col gap-4">
               <img src={project.image} alt={project.name} />
