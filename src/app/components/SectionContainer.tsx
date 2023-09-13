@@ -9,7 +9,7 @@ export const SectionContainer = ({ title, children }: Props) => {
   return (
     <section className="py-12">
       <div className="mx-auto max-w-5xl">
-        <h2 className="pb-12 text-center text-4xl font-bold">
+        <h2 className="pb-12 text-center text-4xl font-bold sm:text-3xl">
           <span className="mr-2 text-target">//</span>
           {title}
         </h2>

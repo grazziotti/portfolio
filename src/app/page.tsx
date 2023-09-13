@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className="px-10 sm:px-6">
         <Hero />
         <About />
         <Projects />

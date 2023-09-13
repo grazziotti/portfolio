@@ -4,8 +4,8 @@ import { navigationLinks } from '@/app/utils/data'
 
 export const NavBar = () => {
   return (
-    <nav>
-      <ul className="flex items-center gap-8">
+    <nav className="sm:hidden">
+      <ul className="flex items-center gap-8 md:gap-5">
         {navigationLinks.map((link, index) => (
           <li key={index}>
             <Link

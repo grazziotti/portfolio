@@ -17,6 +17,7 @@ export const Skills = () => {
               alt={skill.name}
               width={40}
               height={40}
+              className="sm:h-8 sm:w-8"
             />
             {skill.name}
           </div>

@@ -16,6 +16,10 @@ const config: Config = {
         textLight: 'rgb(var(--color-text-light) / <alpha-value>)',
         target: 'rgb(var(--color-target) / <alpha-value>)'
       }
+    },
+    screens: {
+      md: { max: '865px' },
+      sm: { max: '670px' }
     }
   },
   plugins: []
