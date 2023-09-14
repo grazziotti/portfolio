@@ -24,7 +24,7 @@ export const Projects = () => {
 
   return (
     <SectionContainer title="Projetos">
-      <div className="grid grid-cols-2 gap-32 sm:grid-cols-1 sm:justify-items-center md:gap-16">
+      <div className="grid grid-cols-2 gap-32 md:gap-16 sm:grid-cols-1 sm:justify-items-center">
         {projectsData.slice(0, visibleProjects).map((project, index) => (
           <div key={index} className="relative flex flex-col gap-3 sm:max-w-sm">
             <div className="relative flex-col gap-4">

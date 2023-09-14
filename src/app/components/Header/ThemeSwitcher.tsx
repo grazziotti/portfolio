@@ -49,7 +49,7 @@ export const ThemeSwitcher = () => {
       >
         <Menu.Items
           as="ul"
-          className="absolute right-0 mt-6 w-52 overflow-hidden rounded-lg bg-secondary py-2"
+          className="absolute right-0 mt-6 flex w-52 flex-col overflow-hidden rounded-lg bg-secondary py-2 sm:mt-2 sm:bg-secondaryHover"
         >
           {Themes.map((themeInfo, index) => (
             <Menu.Item key={index} as="li">
