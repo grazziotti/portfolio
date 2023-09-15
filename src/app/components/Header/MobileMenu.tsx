@@ -39,8 +39,10 @@ export const MobileMenu = () => {
           ></div>
           <div
             className={`${
-              animate && 'translate-x-0 opacity-100'
-            } fixed bottom-0 right-0 top-0 z-30 flex h-screen w-2/3 translate-x-full flex-col items-center justify-center gap-16 bg-secondary p-4 opacity-0 transition duration-300`}
+              animate
+                ? 'translate-x-0 opacity-100'
+                : 'translate-x-full opacity-0'
+            } fixed bottom-0 right-0 top-0 z-30 flex h-screen w-2/3 flex-col items-center justify-center gap-16 bg-secondary p-4 opacity-0 transition duration-300`}
           >
             <button onClick={closeMenu}>
               <X />
