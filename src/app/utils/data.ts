@@ -6,7 +6,16 @@ export const navigationLinks = [
   { label: 'Contato', path: '#contact' }
 ]
 
-export const projectsData = [
+export type projectType = {
+  name: string
+  repo: string
+  url: string
+  image: string
+  description: string
+  tags: string[]
+}
+
+export const projectsData: projectType[] = [
   {
     name: 'Nome do Projeto 1',
     repo: 'https://github.com/',
