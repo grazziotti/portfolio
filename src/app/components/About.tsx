@@ -3,7 +3,7 @@ import { SectionContainer } from './SectionContainer'
 
 export const About = () => {
   return (
-    <SectionContainer title="Sobre mim">
+    <SectionContainer id="about" title="Sobre mim">
       <div className="flex items-center justify-between md:justify-center">
         <MotionP
           initial={{ opacity: 0, x: -40 }}

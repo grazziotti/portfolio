@@ -1,5 +1,5 @@
 export const navigationLinks = [
-  { label: 'Início', path: '/' },
+  { label: 'Início', path: '#home' },
   { label: 'Sobre mim', path: '#about' },
   { label: 'Projetos', path: '#projects' },
   { label: 'Habilidades', path: '#skills' },

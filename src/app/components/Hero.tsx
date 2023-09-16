@@ -3,9 +3,9 @@ import { EmailBtn } from './EmailBtn'
 
 export const Hero = () => {
   return (
-    <section>
+    <section id="home">
       <MotionDiv className="mx-auto max-w-5xl">
-        <div className="flex h-[calc(100vh-112px)] flex-col items-center justify-center gap-3">
+        <div className="flex h-screen flex-col items-center justify-center gap-3">
           <MotionH1
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}

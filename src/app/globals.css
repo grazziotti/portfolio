@@ -42,6 +42,10 @@
   border-color: rgb(var(--color-text));
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(var(--color-primary));
   color: rgb(var(--color-text));

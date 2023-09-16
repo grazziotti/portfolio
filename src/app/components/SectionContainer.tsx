@@ -3,13 +3,14 @@ import { ReactNode } from 'react'
 import { MotionH2 } from '../lib/motion'
 
 type Props = {
+  id: string
   title: string
   children: ReactNode
 }
 
-export const SectionContainer = ({ title, children }: Props) => {
+export const SectionContainer = ({ id, title, children }: Props) => {
   return (
-    <section className="py-12">
+    <section id={id} className="py-12">
       <div className="mx-auto max-w-5xl">
         <MotionH2
           initial={{ opacity: 0, x: -40 }}

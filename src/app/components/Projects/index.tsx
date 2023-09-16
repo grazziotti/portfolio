@@ -47,7 +47,7 @@ export const Projects = () => {
   }, [isInView])
 
   return (
-    <SectionContainer title="Projetos">
+    <SectionContainer id="projects" title="Projetos">
       <div ref={ref}>
         <MotionDiv
           variants={container}
