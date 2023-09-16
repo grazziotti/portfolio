@@ -8,7 +8,7 @@ export const navigationLinks = [
 
 export const projectsData = [
   {
-    name: 'Nome do Projeto',
+    name: 'Nome do Projeto 1',
     repo: 'https://github.com/',
     url: 'https://github.com/',
     image:
@@ -17,7 +17,7 @@ export const projectsData = [
     tags: ['react', 'typescript', 'styled-components', 'axios', 'api']
   },
   {
-    name: 'Nome do Projeto',
+    name: 'Nome do Projeto 2',
     repo: 'https://github.com/',
     url: 'https://github.com/',
     image:
@@ -26,7 +26,7 @@ export const projectsData = [
     tags: ['react', 'typescript', 'styled-components', 'axios', 'api']
   },
   {
-    name: 'Nome do Projeto',
+    name: 'Nome do Projeto 3',
     repo: 'https://github.com/',
     url: 'https://github.com/',
     image:
@@ -35,7 +35,7 @@ export const projectsData = [
     tags: ['react', 'typescript', 'styled-components', 'axios', 'api']
   },
   {
-    name: 'Nome do Projeto',
+    name: 'Nome do Projeto 4',
     repo: 'https://github.com/',
     url: 'https://github.com/',
     image:
@@ -44,7 +44,7 @@ export const projectsData = [
     tags: ['react', 'typescript', 'styled-components', 'axios', 'api']
   },
   {
-    name: 'Nome do Projeto',
+    name: 'Nome do Projeto 5',
     repo: 'https://github.com/',
     url: 'https://github.com/',
     image:
@@ -53,7 +53,7 @@ export const projectsData = [
     tags: ['react', 'typescript', 'styled-components', 'axios', 'api']
   },
   {
-    name: 'Nome do Projeto',
+    name: 'Nome do Projeto 6',
     repo: 'https://github.com/',
     url: 'https://github.com/',
     image:
@@ -62,7 +62,7 @@ export const projectsData = [
     tags: ['react', 'typescript', 'styled-components', 'axios', 'api']
   },
   {
-    name: 'Nome do Projeto',
+    name: 'Nome do Projeto 7',
     repo: 'https://github.com/',
     url: 'https://github.com/',
     image:
@@ -71,7 +71,7 @@ export const projectsData = [
     tags: ['react', 'typescript', 'styled-components', 'axios', 'api']
   },
   {
-    name: 'Nome do Projeto',
+    name: 'Nome do Projeto 8',
     repo: 'https://github.com/',
     url: 'https://github.com/',
     image:

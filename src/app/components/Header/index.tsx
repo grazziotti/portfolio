@@ -3,9 +3,17 @@ import { MobileMenu } from './MobileMenu'
 import { NavBar } from './NavBar'
 import { ThemeSwitcher } from './ThemeSwitcher'
 
+import { MotionHeader } from '@/app/lib/motion'
+
 export const Header = () => {
   return (
-    <header className="px-10 sm:px-6">
+    <MotionHeader
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.3 }}
+      className="px-10 sm:px-6"
+    >
       <div className="mx-auto max-w-5xl">
         <div className="flex h-28 items-center justify-between sm:hidden">
           <Logo />
@@ -17,6 +25,6 @@ export const Header = () => {
           <MobileMenu />
         </div>
       </div>
-    </header>
+    </MotionHeader>
   )
 }
