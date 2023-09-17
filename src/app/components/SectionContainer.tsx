@@ -10,7 +10,7 @@ type Props = {
 
 export const SectionContainer = ({ id, title, children }: Props) => {
   return (
-    <section id={id} className="py-12">
+    <section id={id} className="py-16">
       <div className="mx-auto max-w-5xl">
         <MotionH2
           initial={{ opacity: 0, x: -40 }}

@@ -39,6 +39,7 @@ export const Hero = () => {
               delay: 1.2,
               duration: 0.3
             }}
+            className="mt-4"
           >
             <EmailBtn />
           </MotionDiv>
