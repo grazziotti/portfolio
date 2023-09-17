@@ -8,7 +8,7 @@ const iconSize = { width: 28, height: 28 }
 
 const socialData = [
   {
-    link: 'https://github.com/',
+    link: 'https://github.com/grazziotti',
     icon: <Github width={iconSize.width} height={iconSize.height} />
   },
   {

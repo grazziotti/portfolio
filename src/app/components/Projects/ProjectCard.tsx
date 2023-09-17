@@ -33,8 +33,8 @@ export const ProjectCard = ({ projectData }: Props) => {
           </nav>
         </div>
       </div>
-      <div className="flex flex-col gap-3">
-        <h3 className="text-[22px] font-bold">{projectData.name}</h3>
+      <div className="flex flex-col gap-4">
+        <h3 className="text-2xl font-bold">{projectData.name}</h3>
         <p className="text-lg">{projectData.description}</p>
         <div className="flex flex-wrap gap-3">
           {projectData.tags.map((tag, index) => (
