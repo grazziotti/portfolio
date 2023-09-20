@@ -34,14 +34,15 @@ export const Footer = () => {
         <p>© 2023 / Daniel Grazziotti</p>
         <div className="flex items-center gap-4">
           {socialData.map((social, index) => (
-            <Link
+            <a
               key={index}
               className="transition hover:-translate-y-1 hover:text-target"
               target="_blank"
               href={social.link}
+              rel="noreferrer"
             >
               {social.icon}
-            </Link>
+            </a>
           ))}
         </div>
       </MotionDiv>

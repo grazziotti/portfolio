@@ -18,14 +18,15 @@ export const SocialLinks = () => {
       className="fixed bottom-0 left-10 flex flex-col items-center gap-y-4 md:hidden"
     >
       {socialData.map((social, index) => (
-        <Link
+        <a
           key={index}
           className="transition hover:-translate-y-1 hover:text-target"
           target="_blank"
           href={social.link}
+          rel="noreferrer"
         >
           {social.icon}
-        </Link>
+        </a>
       ))}
       <div className="mt-4 h-32 w-[2px] origin-bottom bg-target"></div>
     </MotionDiv>

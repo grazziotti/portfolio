@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 import { MotionDiv } from '../../lib/motion'
 import { projectType } from '../../utils/data'
 
@@ -16,20 +14,22 @@ export const ProjectCard = ({ projectData }: Props) => {
         <img src={projectData.image} alt={projectData.name} />
         <div className="absolute left-0 top-0 z-10 flex h-full w-full items-end bg-black bg-opacity-80 p-3 opacity-0 transition hover:opacity-100">
           <nav className="flex items-center gap-x-4">
-            <Link
+            <a
               target="_blank"
               href={projectData.repo}
               className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
+              rel="noreferrer"
             >
               <Code2 />
-            </Link>
-            <Link
+            </a>
+            <a
               target="_blank"
               href={projectData.url}
               className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
+              rel="noreferrer"
             >
               <ExternalLink />
-            </Link>
+            </a>
           </nav>
         </div>
       </div>
