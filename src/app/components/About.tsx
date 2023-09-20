@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 import { MotionDiv } from '../lib/motion'
@@ -22,7 +23,7 @@ export const About = () => {
             projetos React, Next.js, TypeScript, Tailwindcss e mais.
           </p>
 
-          <p className="">
+          <p>
             Atualmente estudando, praticando e buscando novas oportunidades.
           </p>
           <MotionDiv className="flex justify-start md:justify-center">
@@ -41,7 +42,22 @@ export const About = () => {
           transition={{ delay: 0.5, duration: 0.3 }}
           className="flex flex-1 justify-end pl-8 md:hidden"
         >
-          <div className="h-72 w-72 bg-secondary"></div>
+          <div className="w-80 pb-10">
+            <div className="flex flex-wrap justify-center gap-4 opacity-70">
+              <span className="h-3 w-48 rounded-full bg-target"></span>
+              <span className="h-3 w-32 rounded-full bg-secondaryHover"></span>
+              <span className="h-3 w-20 rounded-full bg-target"></span>
+              <span className="h-3 w-28 rounded-full bg-target"></span>
+              <span className="h-3 w-14 rounded-full bg-secondaryHover"></span>
+              <span className="h-3 w-20 rounded-full bg-target"></span>
+              <span className="h-3 w-32 rounded-full bg-target"></span>
+              <span className="h-3 w-32 rounded-full bg-secondaryHover"></span>
+              <span className="h-3 w-32 rounded-full bg-secondaryHover"></span>
+              <span className="h-3 w-20 rounded-full bg-target"></span>
+              <span className="h-3 w-28 rounded-full bg-target"></span>
+              <span className="h-3 w-14 rounded-full bg-secondaryHover"></span>
+            </div>
+          </div>
         </MotionDiv>
       </div>
     </SectionContainer>
