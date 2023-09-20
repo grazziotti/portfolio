@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import { MotionDiv, MotionNav } from '../../lib/motion'
 import { projectType } from '../../utils/data'
 
@@ -22,7 +24,12 @@ export const ProjectCard = ({ projectData }: Props) => {
   return (
     <MotionDiv className="relative flex flex-col gap-3 sm:max-w-sm">
       <div className="relative flex-col gap-4">
-        <img src={projectData.image} alt={projectData.name} />
+        <Image
+          src={projectData.image}
+          alt={`${projectData.name} image`}
+          width={448}
+          height={280}
+        />
         <MotionDiv
           initial="initial"
           animate="initial"

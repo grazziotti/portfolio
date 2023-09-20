@@ -88,7 +88,7 @@ export const Projects = () => {
           className="border-t-1 mt-14 flex justify-center"
         >
           <button
-            className="flex items-center gap-x-2 rounded-lg text-lg text-textLight transition hover:bg-opacity-80 hover:text-target"
+            className="flex items-center gap-x-2 rounded-lg text-lg transition hover:bg-opacity-80 hover:text-target"
             onClick={() => setShowMore(!showMore)}
           >
             Mostrar {showMore ? 'Menos' : 'Mais'}{' '}
