@@ -12,7 +12,7 @@ const socialData = [
     icon: <Github width={iconSize.width} height={iconSize.height} />
   },
   {
-    link: 'https://linkedin.com/',
+    link: 'https://www.linkedin.com/in/daniel-grazziotti/',
     icon: <Linkedin width={iconSize.width} height={iconSize.height} />
   }
 ]
