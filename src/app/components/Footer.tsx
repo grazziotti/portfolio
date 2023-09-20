@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 import { MotionDiv } from '../lib/motion'
 
 import { Github, Linkedin } from 'lucide-react'
