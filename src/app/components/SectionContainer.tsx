@@ -18,7 +18,7 @@ export const SectionContainer = ({ id, title, children }: Props) => {
           viewport={{ once: true }}
           className="pb-12 text-center text-4xl font-bold sm:text-3xl"
         >
-          <span className="mr-2 text-target">//</span>
+          <span className="mr-2 text-target">{'//'}</span>
           {title}
         </MotionH2>
         {children}
