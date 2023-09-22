@@ -34,7 +34,7 @@ export const ProjectCard = ({ projectData }: Props) => {
           initial="initial"
           animate="initial"
           whileHover="animate"
-          className="absolute left-0 top-0 z-10 flex h-full w-full items-end bg-black bg-opacity-80 p-3 opacity-0 transition hover:opacity-100"
+          className="absolute left-0 top-0 z-10 flex h-full w-full items-end bg-black bg-opacity-80 p-3 opacity-0 transition hover:opacity-100 md:hidden"
         >
           <MotionNav
             variants={item}
@@ -61,6 +61,26 @@ export const ProjectCard = ({ projectData }: Props) => {
             </a>
           </MotionNav>
         </MotionDiv>
+        <div className="absolute left-0 top-0 z-10 hidden h-full w-full items-end bg-black bg-opacity-80 p-3 opacity-0 transition hover:opacity-100 md:flex">
+          <nav className="flex items-center gap-x-4">
+            <a
+              target="_blank"
+              href={projectData.repo}
+              className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
+              rel="noreferrer"
+            >
+              <Code2 />
+            </a>
+            <a
+              target="_blank"
+              href={projectData.url}
+              className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
+              rel="noreferrer"
+            >
+              <ExternalLink />
+            </a>
+          </nav>
+        </div>
       </div>
       <div className="flex flex-col gap-4">
         <h3 className="text-2xl font-bold">{projectData.name}</h3>
