@@ -6,7 +6,7 @@
 
 Olá! Bem-vindo ao meu portfólio. Aqui é onde compartilho informações sobre mim, projetos e habilidades relacionadas ao desenvolvimento web. Utilizando tecnologias modernas, este projeto também é uma demonstração das minhas habilidades técnicas.
 
-[Clique para acessar o projeto no ar]()
+[Clique para acessar o projeto no ar](https://portfolio-grazziotti.vercel.app/)
 
 ## 🛠 Tecnologias Utilizadas
 
