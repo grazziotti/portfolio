@@ -119,7 +119,7 @@ export const skillsData = [
     name: 'React'
   },
   {
-    img: 'tailwindcss/tailwindcss-plain.svg',
+    img: 'tailwindcss/tailwindcss-original.svg',
     name: 'Tailwindcss'
   },
   {
