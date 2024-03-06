@@ -9,7 +9,7 @@ export const navigationLinks = [
 export type projectType = {
   name: string
   repo: string
-  url: string
+  url: string | false
   image: string
   description: string
   tags: string[]
@@ -45,6 +45,15 @@ export const projectsData: projectType[] = [
     tags: ['react', 'typescript', 'styled-components']
   },
   {
+    name: 'Comment API',
+    repo: 'https://github.com/grazziotti/comment-api',
+    url: false,
+    image:
+      'https://i.ibb.co/BKRLTZx/Screenshot-2024-03-05-at-23-44-09-Swagger-UI.png',
+    description: 'API REST de comentários.',
+    tags: ['express', 'api', 'backend', 'nodejs', 'typescript']
+  },
+  {
     name: 'Job listings with filtering',
     repo: 'https://github.com/grazziotti/job-listings-with-filtering',
     url: 'https://job-listings-with-filtering-khaki.vercel.app/',
@@ -71,16 +80,6 @@ export const projectsData: projectType[] = [
     description:
       'Aplicação que fornece informações atualizadas sobre o clima em qualquer lugar do mundo.',
     tags: ['html', 'css', 'javascript', 'api']
-  },
-  {
-    name: 'Url shortening',
-    repo: 'https://github.com/grazziotti/url-shortening-api-landing-page',
-    url: 'https://grazziotti.github.io/url-shortening-api-landing-page',
-    image:
-      'https://i.ibb.co/RbKxdN9/Screenshot-2023-09-09-at-20-41-40-Frontend-Mentor-Shortly-URL-shortening-API-Challenge.png',
-    description:
-      'Uma Landing Page com um encurtador de URL que simplifica links longos em URLs curtas e fáceis de compartilhar.',
-    tags: ['html', 'css', 'javascript', 'bem', 'api']
   },
   {
     name: 'Rock-paper-scissors Game',

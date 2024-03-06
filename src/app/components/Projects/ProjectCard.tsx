@@ -51,14 +51,16 @@ export const ProjectCard = ({ projectData }: Props) => {
             >
               <Code2 />
             </a>
-            <a
-              target="_blank"
-              href={projectData.url}
-              className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
-              rel="noreferrer"
-            >
-              <ExternalLink />
-            </a>
+            {projectData.url && (
+              <a
+                target="_blank"
+                href={projectData.url}
+                className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
+                rel="noreferrer"
+              >
+                <ExternalLink />
+              </a>
+            )}
           </MotionNav>
         </MotionDiv>
         <div className="absolute left-0 top-0 z-10 hidden h-full w-full items-end bg-black bg-opacity-80 p-3 opacity-0 transition hover:opacity-100 md:flex">
@@ -71,14 +73,16 @@ export const ProjectCard = ({ projectData }: Props) => {
             >
               <Code2 />
             </a>
-            <a
-              target="_blank"
-              href={projectData.url}
-              className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
-              rel="noreferrer"
-            >
-              <ExternalLink />
-            </a>
+            {projectData.url && (
+              <a
+                target="_blank"
+                href={projectData.url}
+                className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
+                rel="noreferrer"
+              >
+                <ExternalLink />
+              </a>
+            )}
           </nav>
         </div>
       </div>
