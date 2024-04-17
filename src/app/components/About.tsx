@@ -18,8 +18,8 @@ export const About = () => {
         >
           <p>
             Olá, me chamo Daniel Grazziotti. Sou apaixonado por tecnologia e um
-            entusiasta do desenvolvimento front-end. Tenho utilizado em meus
-            projetos React, Next.js, TypeScript, Tailwindcss e mais.
+            entusiasta do desenvolvimento web. Tenho utilizado em meus projetos
+            React, Next.js, Node.js, Express e mais.
           </p>
 
           <p>

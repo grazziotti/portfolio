@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslit": true
+    "source.fixAll.eslit": "explicit"
   }
 }

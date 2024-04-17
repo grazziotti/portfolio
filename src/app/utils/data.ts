@@ -124,5 +124,21 @@ export const skillsData = [
   {
     img: 'nextjs/nextjs-original.svg',
     name: 'Nextjs'
+  },
+  {
+    img: 'nodejs/nodejs-original.svg',
+    name: 'Node.js'
+  },
+  {
+    img: 'express/express-original.svg',
+    name: 'Express'
+  },
+  {
+    img: 'postgresql/postgresql-original.svg',
+    name: 'PostgreSQL'
+  },
+  {
+    img: 'git/git-original.svg',
+    name: 'Git'
   }
 ]
